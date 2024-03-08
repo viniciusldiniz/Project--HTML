@@ -12,4 +12,4 @@
 
 ## By:
 ### Vinicius Lessa 
-### Linkedin: 
+### Linkedin:   <a href="https://www.linkedin.com/in/vin%C3%ADcius-lessa-55b21b176/" class="linkedin-button" target="_blank"> Meu Perfil </a>
