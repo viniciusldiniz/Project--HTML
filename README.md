@@ -10,6 +10,20 @@
 * CSS
 * JavaScript
 
+## informação adicional/ Additional Information:
+Neste projeto, foram incluídas informações para auxiliar desenvolvedores iniciantes, como o propósito de cada item do CSS e como utilizá-los.
+In this project, information has been provided to assist beginner developers, explaining the purpose of each CSS item and how to use them.
+
 ## By:
 ### Vinicius Lessa 
 ### Linkedin:   <a href="https://www.linkedin.com/in/vin%C3%ADcius-lessa-55b21b176/" class="linkedin-button" target="_blank"> Meu Perfil </a>
+
+
+
+
+
+
+
+
+
+
