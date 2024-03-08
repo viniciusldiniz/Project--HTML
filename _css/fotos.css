@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+/* Estilo para a lista de fotos */
+ul#album-fotos { 
+    width: 700px; /* Define a largura da lista de fotos como 700 pixels. */
+    margin: 0 auto; /* Centraliza a lista horizontalmente usando margens automáticas. */
+    padding: 50px; /* Adiciona 50 pixels de espaço interno em todas as direções dentro da lista. */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse as dimensões da lista. */
+    list-style: none; /* Remove os marcadores de lista padrão. */
+}
+
+/* Estilo para cada item da lista de fotos */
+ul#album-fotos li {
+    float: left; /* Define a posição dos elementos como flutuante à esquerda. */
+    width: 200px; /* Define a largura dos itens como 200 pixels. */
+    height: 200px; /* Define a altura dos itens como 200 pixels. */
+    margin: 10px; /* Adiciona uma margem de 10 pixels ao redor de cada item. */
+    border: 5px solid rgb(255, 255, 255); /* Adiciona uma borda de 5 pixels sólida com a cor branca. */
+    background-color: #ffffff; /* Define a cor de fundo dos itens como branco. */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4); /* Adiciona uma sombra suave aos itens. */
+    -webkit-transition: all .3s ease-in; /*é usada para definir transições para elementos em uma página.*/
+}
+
+/* Estilo para o texto sobre a imagem */
+ul#album-fotos li span {
+    color: #ffffff; /* Define a cor do texto como branca. */
+    text-shadow: 1px 1px 1px #000000; /* Adiciona uma sombra de texto sutil. */
+    background-color: rgba(0, 0, 0, .3); /* Adiciona um fundo translúcido ao texto. */
+    font-size: 9pt; /* Define o tamanho da fonte como 9 pontos. */
+    line-height: 370px; /* Define a altura da linha para centralizar verticalmente o texto. */
+    padding: 5px; /* Adiciona um preenchimento interno de 5 pixels ao redor do texto. */
+    opacity: 0; /* Inicialmente, o texto está invisível. */
+}
+
+/* Adiciona um efeito de escala quando o mouse passa sobre a imagem */
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5); /* Aumenta a escala em 1.5 quando o mouse passa sobre o item. */
+}
+
+/* Quando o mouse passa sobre a imagem, torna o texto visível */
+ul#album-fotos li:hover span {
+    opacity: 1; /* Torna o texto visível quando o mouse passa sobre a imagem. */
+}
+
+/* Estilos para cada item específico da lista de fotos */
+ul#album-fotos li#foto01 {
+    background: url('../_imagens/galeria-01.jpg') no-repeat; /* Define a imagem de fundo para o item 01. */
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tama nho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}
+
+/* Repete o padrão para os outros itens da lista de fotos */
+/* Estilos para cada item específico da lista de fotos */
+ul#album-fotos li#foto02 {
+    background: url('../_imagens/galeria-02.jpg') no-repeat; /* Define a imagem de fundo para o item 02. */
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tamanho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto02:hover {
+    background-position: 0 0; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../_imagens/galeria-03.jpg') no-repeat;
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tamanho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto03:hover {
+    background-position: 0 0; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}
+
+ul#album-fotos li#foto04 {
+    background: url('../_imagens/galeria-04.jpg') no-repeat;
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tamanho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto04:hover {
+    background-position: 0 0; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}
+
+ul#album-fotos li#foto05 {
+    background: url('../_imagens/galeria-05.jpg') no-repeat;
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tamanho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto05:hover {
+    background-position: 0 0; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}
+
+ul#album-fotos li#foto06 {
+    background: url('../_imagens/galeria-06.jpg') no-repeat;
+    background-position: 50% 50%; /* Centraliza a imagem de fundo. */
+    background-size: 400px 400px; /* Define o tamanho da imagem de fundo. */
+    background-color: #ffffff; /* Define a cor de fundo do item. */
+}
+/* Adiciona uma transição suave quando o tamanho da imagem de fundo muda */
+ul#album-fotos li#foto06:hover {
+    background-position: 0 0; /* Muda a posição da imagem de fundo quando o mouse passa sobre o item. */
+    background-size: 200px 200px; /* Reduz o tamanho da imagem de fundo quando o mouse passa sobre o item. */
+}

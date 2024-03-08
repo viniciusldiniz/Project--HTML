@@ -1,0 +1,33 @@
+@charset "utf-8"; /* Declaração do conjunto de caracteres UTF-8 para suportar caracteres especiais */
+
+/* Fonte */
+@font-face {
+    font-family: "fontelogo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+/* Container TV e Rádio */
+div#tv-radio {
+    width: 900px; /* Largura do container TV e Rádio */
+    height: 580px; /* Altura do container TV e Rádio */
+    margin: auto; /* Centralização do container na página */
+    background: url("../_imagens/radio-tv.png") no-repeat; /* Imagem de fundo do container */
+}
+
+/* Elemento de Áudio (Música) */
+audio#musica {
+    display: block; /* Exibição do elemento como bloco */
+    position: relative; /* Posicionamento relativo ao contêiner pai */
+    left: 570px; /* Distância do lado esquerdo do contêiner pai */
+    top: 490px; /* Distância do topo do contêiner pai */
+    width: 300px; /* Largura do elemento de áudio (música) */
+}
+
+/* Elemento de Vídeo (Filme) */
+video#filme {
+    display: block; /* Exibição do elemento como bloco */
+    position: relative; /* Posicionamento relativo ao contêiner pai */
+    left: 90px; /* Distância do lado esquerdo do contêiner pai */
+    top: 70px; /* Distância do topo do contêiner pai */
+    width: 440px; /* Largura do elemento de vídeo (filme) */
+}

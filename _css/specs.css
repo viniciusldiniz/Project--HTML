@@ -1,0 +1,39 @@
+/* Fonte */
+@font-face {
+  font-family: "fontelogo";
+  src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+section#conteudo {
+  width: 1000px;
+  margin: auto;
+}
+iframe#frame-spec {
+  width: 45%;
+  height: 280px;
+  border: none;
+  overflow: hidden; /* Oculta a barra de rolagem */
+  margin: 0;
+}
+iframe#frame-spec::-webkit-scrollbar {
+  display: none; /* Oculta a barra de rolagem no Chrome/Safari */
+}
+iframe#frame-spec {
+  scrollbar-width: none;
+}
+/* Corpo */
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Interface */
+div#interface {
+  width: 1000px;
+  background-color: white;
+  margin: -20px auto 0px auto;
+  box-shadow: 0px 0px 0.5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}

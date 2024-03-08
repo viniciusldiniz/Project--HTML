@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass</title>
+    <!-- Links para os arquivos de estilo e ícone -->
+    <link rel="stylesheet" href="../_css/estilo.css" />
+    <link rel="stylesheet" href="../_css/fotos.css" />
+    <link rel="icon" href="../_imagens/favicon.ico" type="image/x-icon">
+</head>
+<script lang="javascript" src="../_javascript/funcoes.js"></script>
+
+<body>
+
+    <div id="interface">
+        <header id="cabecalho">
+            <!-- Título e slogan do site -->
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h3>A revolução do Google está chegando.</h3>
+            </hgroup>
+            <!-- Ícone do menu -->
+            <img id="icone" src="../_imagens/fotos.png">
+            <!-- Menu de navegação -->
+            <nav id="Menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <!-- Itens do menu com efeitos de mouse -->
+                    <li onmouseover="mudaFoto('../_imagens/home.png')" onmouseout="mudaFoto('../_imagens/fotos.png')"><a href="../index.html"> Home </a></li>
+                    <li onmouseover="mudaFoto('../_imagens/especificacoes.png')"onmouseout="mudaFoto('../_imagens/fotos.png')"><a href="specs.html"> Especificações</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/fotos.png')" onmouseout="mudaFoto('../_imagens/fotos.png')"><a href="fotos.html"> Fotos</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/multimidia.png')" onmouseout="mudaFoto('../_imagens/fotos.png')"><a href="multimidia.html"> Multimídia</a></li>
+                    <li onmouseover="mudaFoto('../_imagens/contato.png')" onmouseout="mudaFoto('../_imagens/fotos.png')"><a href="fale-conosco.html"> Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <!-- Títulos e subtítulos da notícia -->
+                        <h3>Glass > Fotos</h3>
+                        <h1>Galeria de Imagens do Google Glass</h1>
+                        <h2>por Vinicius L. Diniz</h2>
+                        <h3 class="direita">Atualizado em 02/Março/2024</h3>
+                    </hgroup>
+                </header>
+
+                <!-- Descrição da notícia -->
+                <p>
+                    Veja na nossa galeria de fotos várias belas imagens que
+                    mostram algumas das principais características do Google
+                    Glass, como recursos e propriedades que estão
+                    impressionando
+                    o mundo inteiro. Basta passar o mouse sobre uma das
+                    fotos
+                    para ver uma versão ampliada e com uma breve
+                    descrição.
+                </p><br>
+
+                <!-- Lista de fotos -->
+                <ul ID="album-fotos">
+                    <!-- Cada item da lista com uma breve descrição -->
+                    <li id="foto01"><span>Agenda e lembretes</span></li>
+                    <li id="foto02"><span>Sergey Brin usando o
+                            Glass</span></li>
+                    <li id="foto03"><span>Leve e compacto</span></li>
+                    <li id="foto04"><span>Sensação de uma tela de
+                            50"</span></li>
+                    <li id="foto05"><span>Vários tipos de lente</span></li>
+                    <li id="foto06"><span>Informações
+                            importantes</span></li>
+                </ul>
+                <footer id="rodape">
+
+                    <!-- Informações de rodapé, incluindo o ano de copyright -->
+                    <p>
+                        Copyright &copy; 2024 - by Vinicius L. Diniz <br />
+                        <a href="https://www.facebook.com" target="_blank">
+                            Facebook </a>| <a href="https://www.Twitter.com" target="_blank"> Twitter</a>
+                    </p>
+                </footer>
+            </article>
+        </section>
+    </div>
+</body>
+
+</html>

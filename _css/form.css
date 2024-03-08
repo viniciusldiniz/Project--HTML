@@ -1,0 +1,82 @@
+@charset "UTF-8"; /* Declaração do conjunto de caracteres UTF-8 para suportar caracteres especiais */
+
+form {
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centralização do formulário horizontalmente com margens */
+    padding: 5px;
+    background-color: #fff; /* Cor de fundo do formulário */
+    border: 1px solid #ccc; /* Borda do formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+input, textarea {
+    padding: 3px;
+    box-sizing: border-box; /* Faz com que o padding não afete a largura total */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: 13pt normal sans-serif; /* Propriedades da fonte para os elementos de input */
+
+}
+input, textarea:hover {
+    background-color: rgba(255, 255,255,.8);/* Fundo levemente mais claro ao passar o mouse */
+}
+
+legend{
+    font:13pt, bold, sans-serif ;/* tamanho 13, Negrito, tipo */
+    color: #888; /* Cor do texto da legenda */
+    margin-bottom: 10px; /* Espaçamento abaixo da legenda */
+}
+
+fieldset{
+    margin: 20px;
+    border: 1px solid #cecece;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+fieldset#sexo {
+    width: 50%; /* Preenche a largura do elemento pai */
+}
+
+fieldset#Usuario{
+    background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+}
+
+fieldset#Endereco{
+    background: url("../_imagens/icone-endereco.png") no-repeat 95% 95%;
+}
+
+fieldset#mensagem{
+    background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+}
+
+fieldset#pedido{
+    background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+}
+
+/* Adicione media queries para tornar o formulário responsivo em dispositivos menores se necessário */
+@media only screen and (max-width: 600px) {
+    form {
+        max-width: 100%; /* Em telas menores, o formulário ocupa toda a largura disponível */
+    }
+}
+
+/* Botão do formulário */
+#fcontato button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    border: none; /* Remova a borda do botão */
+    border-radius: 5px; /* Adicione bordas arredondadas */
+    cursor: pointer; /* Altere o cursor ao passar por cima do botão */
+    transition: background-color 0.3s; /* Adicione uma transição suave à cor de fundo */
+    max-width: 400px; /* Defina a largura máxima do formulário conforme desejado */
+    margin: 0 auto; /* Centralize o formulário na página */
+    text-align: center; /* Centralize o texto dentro do formulário */
+}
+
+#fcontato button:hover {
+    background-color: #45a049; /* Altere a cor de fundo ao passar por cima do botão */
+}

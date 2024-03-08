@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="../_css/estilo.css" />
+    <link rel="stylesheet" href="../_css/media.css" />
+    <link rel="icon" href="../_imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<script lang="javascript" src="../_javascript/funcoes.js"></script>
+
+<body>
+
+    <div id="interface">
+
+        <!-- Cabeçalho -->
+        <header id="cabecalho">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h3>A revolução do Google está chegando.</h3>
+            </hgroup>
+
+            <img id="icone" src="../_imagens/multimidia.png">
+
+            <!-- Menu Principal -->
+            <nav id="Menu">
+                <h1>Menu Principal</h1>
+                <ul type="disc">
+                    <li onmouseover="mudaFoto('../_imagens/home.png')"
+                        onmouseout="mudaFoto('../_imagens/multimidia.png')">
+                        <a href="../index.html"> Home </a>
+                    </li>
+                    <li onmouseover="mudaFoto('../_imagens/especificacoes.png')"
+                        onmouseout="mudaFoto('../_imagens/multimidia.png')">
+                        <a href="specs.html"> Especificações</a>
+                    </li>
+                    <li onmouseover="mudaFoto('../_imagens/fotos.png')"
+                        onmouseout="mudaFoto('../_imagens/multimidia.png')">
+                        <a href="fotos.html"> Fotos</a>
+                    </li>
+                    <li onmouseover="mudaFoto('../_imagens/multimidia.png')"
+                        onmouseout="mudaFoto('../_imagens/multimidia.png')">
+                        <a href="multimidia.html"> Multimídia</a>
+                    </li>
+                    <li onmouseover="mudaFoto('../_imagens/contato.png')"
+                        onmouseout="mudaFoto('../_imagens/multimidia.png')">
+                        <a href="fale-conosco.html"> Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Corpo da Página -->
+        <section id="corpo-full">
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>Glass > Multimídia</h3>
+                        <h1>Sons e Vídeos</h1>
+                        <h2>por Vinicius L. Diniz</h2>
+                        <h3 class="direita">Atualizado em 02/Março/2024</h3>
+                    </hgroup>
+                </header>
+
+                <!-- Elementos de Multimídia -->
+                <div id="tv-radio">
+                    <!-- Elemento de Áudio com Controles -->
+                    <p>
+                        <audio id="musica" controls="controls">
+                            <!-- Fonte do Áudio -->
+                            <source src="../_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                        </audio>
+                    </p>
+
+                    <!-- Elemento de Vídeo -->
+                    <p>
+                        <video id="filme" controls="controls" poster="../_imagens/video-mini03.jpg">
+                            <source src="../_media/getting-started.mp4" type="video/mp4"/>
+                        </video>
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <!-- Rodapé -->
+        <footer id="rodape">
+            <!-- Copyright e Links Sociais -->
+            <p>
+                Copyright &copy; 2024 - by Vinicius L. Diniz <br />
+                <a href="https://www.facebook.com" target="_blank"> Facebook </a>|
+                <a href="https://www.Twitter.com" target="_blank"> Twitter</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
